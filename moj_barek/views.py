@@ -10,6 +10,11 @@ def hello_world(request):
     return HttpResponse("Hello world")
 
 
+def login(request):
+    return HttpResponse("Login Page")
+
+
+
 @csrf_exempt
 def butelki(request):
     form = """
