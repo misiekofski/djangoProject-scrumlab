@@ -10,6 +10,9 @@ def hello_world(request):
     return HttpResponse("Hello world")
 
 
+def logout(request):
+    return HttpResponse("Logout Page")
+
 def login(request):
     return HttpResponse("Login Page")
 
